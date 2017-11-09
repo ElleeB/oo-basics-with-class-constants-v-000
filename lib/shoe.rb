@@ -5,11 +5,10 @@ class Shoe
   attr_reader :brand
 
   def initialize(brand)
+    BRANDS = []
     @brand = brand
     BRANDS << @brand
   end
-
-  BRANDS = []
 
   def brands
     BRANDS.each {|name| puts name}
