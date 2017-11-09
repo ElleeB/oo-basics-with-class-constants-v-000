@@ -7,11 +7,8 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    BRANDS << brand
-  end
-
-  def brands
-    BRANDS.each {|name| puts name}
+    @brand = brand
+    BRANDS << @brand
   end
 
   def cobble
