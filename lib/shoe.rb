@@ -11,7 +11,7 @@ class Shoe
 
   BRANDS = []
 
-  def brand(BRANDS)
+  def brand
     BRANDS.each {|name| puts name}
   end
 
